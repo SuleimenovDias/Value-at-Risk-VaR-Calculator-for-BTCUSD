@@ -8,3 +8,9 @@ Uses actual daily returns from BTC-USD. VaR is the empirical quantile of returns
 Assumes returns are normally distributed. VaR is computed using the mean, volatility, and normal distribution quantiles.
 3. Monte Carlo Simulation
 Generates thousands of random returns from a normal distribution with estimated mean & volatility. VaR is estimated from the simulated distribution.
+
+| Method      | VaR 5%  | VaR 1%  |
+| ----------- | ------- | ------- |
+| Historical  | -0.0501 | -0.0873 |
+| Parametric  | -0.0532 | -0.0761 |
+| Monte Carlo | -0.0531 | -0.0756 |
